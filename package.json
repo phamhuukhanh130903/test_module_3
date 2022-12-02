@@ -1,0 +1,25 @@
+{
+  "name": "demotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yendoan2001/demoTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yendoan2001/demoTest/issues"
+  },
+  "homepage": "https://github.com/yendoan2001/demoTest#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "qs": "^6.11.0",
+    "url": "^0.11.0"
+  }
+}

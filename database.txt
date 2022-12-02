@@ -1,0 +1,13 @@
+create database testmodule3;
+use testmodule3;
+
+create table students (
+id int primary key auto_increment,
+studentname varchar(50) not null,
+studentclass varchar(50) not null,
+theorymark int not null,
+evaluate varchar(100) not null,
+practicemark int not null,
+description varchar(255) not null
+);
+
